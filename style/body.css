@@ -1,45 +1,30 @@
-.box-main{
+#header-site{
     padding: 30px;
+    background-color: #202020;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-
-    /* height: 10em;
+    justify-content: space-around;
     position: relative;
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)  */
+    color: aliceblue;
 }
 
-.box-titulo{
-    padding-top: 50px;
+#nav-header ul{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    gap: 40px;
 }
 
-
-#titulo-pergunta{
-    padding-top: 25px;
+#header-site #nav-header{
+    padding: 5px 0;
+    height: 40px;
 }
 
-.secao-opcoes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    
+.item-nav-header a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
-#opcao-1{
-    padding: 25px;
-}
-
-#opcao-2{
-    padding: 25px;
+.item-nav-header a:hover{
+    border-bottom: 1px solid aliceblue;
 }

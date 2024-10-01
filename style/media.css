@@ -1,0 +1,27 @@
+@media (max-width: 768px){ v +
+    #header-site #nav-header{
+        height: auto;
+    }
+
+    #header-site #nav-header #box-btn-pessoal{
+        display: block;
+    }
+
+    #header-site #nav-header ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #202020;
+        height: fit-content;
+        right: 0;
+    }
+
+    #header-site #nav-header ul.ativo{
+        display: block;
+        text-align: center;
+        width: 500px;
+        height: 300;
+        right: 0;
+        top: 101%;}
+
+}

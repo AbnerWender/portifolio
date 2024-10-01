@@ -8,19 +8,54 @@
 </head>
 <body>
 
-    <section class="box-main">
-        <div class="box-titulo">
-            <h1 id="titulo-principal">Que surpresa, você por aqui!</h1>
-            <h2 id="titulo-pergunta">O que você procura ?</h2>
-        </div>
+    <header id="header-site">
+        <div id="nome-logo">Abner Wender</div>
 
-        <section class="secao-opcoes">
-            <div id="opcao-1">Interesses profissionais</div>
-            <div id="opcao-2">Quero te conhecer</div>
+        <nav id="nav-header">
 
-        </section>
-    </section>
+            <div id="box-btn-pessoal"></div>
+                <button id="btn-hamburguer">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+
+            <ul>
+                <li class="item-nav-header">
+                    <a href="#">Sobre</a>
+                </li>
+
+                <li class="item-nav-header">
+                    <a href="#">Skills</a>
+                </li>
+
+                <li class="item-nav-header">
+                    <a href="#">Laboratório</a>
+                </li>
+
+                <li class="item-nav-header">
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     
 </body>
+<script>
+    var btnPessoal = document.getElementById("btn-pessoal");
+    var navHeader = document.querySelector("#nav-header ul");
+
+    btnPessoal.addEventListener('click', function(evento){
+        evento.preventDefault();
+
+        btnPessoal.classList.toggle('ativo')
+        navHeader.classList.toggle('ativo');
+    });
+
+
+
+
+</script>
 </html>
