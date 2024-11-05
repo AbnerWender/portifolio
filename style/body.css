@@ -1,12 +1,12 @@
 #header-site{
     padding: 30px;
-    background-color: #202020;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     position: relative;
     color: aliceblue;
+    font-size: 20px;
 }
 
 #nav-header ul{
@@ -26,5 +26,51 @@
 }
 
 .item-nav-header a:hover{
-    border-bottom: 1px solid aliceblue;
+    border-bottom: 1px solid #6099EA;
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+
+#area-principal{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+
+
+#area-introducao{
+    width: 850px;
+}
+
+#titulo-profissao{
+    color: #6099EA;
+    font-size: 145%;
+}
+
+#nome{
+    font-size: 135%;
+}
+
+#texto-introducao{
+    font-size: 130%;
+}
+
+#botao-curriculo input{
+    border: 1px solid #6099EA;
+    background: transparent;
+    color: #6099EA;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    align-items: center;
 }

@@ -9,7 +9,10 @@
     text-decoration: none;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
     font-variation-settings:"wdth" 100;
+}
+
+body{
+    background-image: radial-gradient(circle, #303e52, #2c384a, #283342, #242d3b, #202833);
 }
